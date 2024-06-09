@@ -1,0 +1,264 @@
+.body {
+    font-family: "Baloo 2", sans-serif;
+  }
+  
+.header {
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    margin: 0px auto;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+/* .wrapper {
+    display: flex;
+    justify-content: center;
+} */
+.header-menu{
+    list-style: none;
+    display: flex;
+}
+.header-menu a{
+    text-decoration: none;
+    color: black;
+}
+.header-menu a:hover{
+    color: #10A15B;
+    transition: all 0.35s;
+}
+.header-menu a:hover li{
+    border-bottom: 2px solid #10A15B;
+    transition: all 0.35s;
+    
+}
+.header-menu li{
+    font-size: 26px;
+    font-weight: 500;
+
+}
+.header-menu a li{
+    font-size: 26px;
+    font-weight: 500;
+    padding: 5px 25px;
+
+}
+.body .owl-carousel img{
+    width: 100%;
+    height: auto;
+}
+ .service{
+     margin: 0 auto;
+     width: 1200px;
+     display: flex;
+     justify-content: space-between;
+     margin-top: 70px;
+}
+ 
+ .service-left span{
+     font-size: 20px;
+     font-weight: 500;
+     color: #6D6666;
+     
+ }
+ .service-left h2{
+     font-size: 40px;
+     font-weight: bold;
+     color: #10A15B;
+     margin-top: 5px;
+     margin-bottom: 9px;
+     
+ }
+ .service-left p{
+    font-size: 12px;
+    font-weight: 500;
+    color: #6D6666;
+    text-align: justify;
+    width: 500px;
+    margin-left: 15px;
+ }
+ .service-left form input {
+    display: block;
+    padding: 20px 10px;
+    width: 385px;
+    border-radius: 15px;
+    border: #10A15B 3px solid;
+    margin-bottom: 15px;
+ }
+form .map{
+     display: flex;
+
+ } 
+ form .map input{
+    width: 35%;
+    margin-right: 50px;
+ } 
+.service-left form{
+    margin-left: 65px;
+    padding-top: 17px;
+}
+.service-left form select{
+    display: block;
+    padding: 20px 10px;
+    width: 170px;
+    border-radius: 15px;
+    border: #10A15B 3px solid;
+    margin-bottom: 15px;
+
+}
+.service-left form .submit{
+    background-color: #10A15B;
+    color: white;
+    
+}
+.events{
+    width: 1200px;
+    margin: 0 auto;
+}
+.events span{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 50px;
+    display: inline-block;
+    margin-left: 37px;
+}
+.events h2{
+    color:#10A15B;
+    font-size: 55px;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin: 0;
+    margin-left: 37px;
+    margin-bottom: 50px;
+}
+.events h2 b{
+    text-transform: uppercase;
+    color: white;
+    
+}
+.list-event li{
+    list-style: none;
+}
+.list-event li > div{
+    display: inline-block;
+    position: relative;
+}
+.list-event li div div{
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+.list-event li div button{
+    position: absolute;
+    bottom: 35px;
+    left: 72px;
+    background-color: unset;
+    border: 1px solid white;
+    font-size: 12px;
+    color: white;
+    padding: 7px 30px;
+}
+.event-item div p:first-child {
+    color: #F0B51E;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+    text-align: center !important ;
+}
+.event-item div p:last-child {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0; 
+    text-align: center !important ;
+}
+.list-event {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap ;
+
+}
+.list-event .event-item{
+    margin-bottom: 30px;
+}
+.events{
+    background-image: url("./img/bg-1\ 1\ \(1\).png");
+    margin-top: 70px;
+}
+.footer{
+    background-color: #10A15B;
+    padding-top: 20px;
+    margin-top: 80px;
+  
+}
+.footer > div{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    font-family: "baloo 2";
+}
+.footer-left h3{
+    color: white;
+    font-size: 32px;
+    font-weight: 500;
+}
+.footer-left p{
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+}
+.footer-left form input#text{
+    border-radius: 15px ;
+    background-color: white;
+    width: 450px;
+    height: 40px;
+    outline: none;
+    border: none;
+    padding: 5px 10px;
+
+
+}
+.footer-left form input#btn{
+    border-radius: 15px ;
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    outline: none;
+    border: none;
+    color: #10A15B;
+    margin-left: 20px;
+}
+.footer-right h3{
+    color: white;
+    font-size: 32px;
+    font-weight: 500;
+}
+.footer-right p{
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+}
+.footer-right span{
+    display: block;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.copyright{
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+.line{
+    width: 25%;
+    border-top: 2px solid white;
+    margin-top: 80px;
+}
+
